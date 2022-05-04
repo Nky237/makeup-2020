@@ -1,0 +1,94 @@
+
+/* big tablets tablets to 1140px */
+@media only screen and (max-width:1200px){
+.jane-text{
+        width: 100%;
+        padding: 0 2%;
+        
+    
+    }
+    .row{
+        max-width: 100%;
+        margin: 0 2%;
+    }
+       
+    
+}
+
+
+/* small tablets to Ipad */
+@media only screen and (max-width:1023px){
+body{
+    font-size: 18px;
+}
+section{
+    padding: 60px 0;
+}
+.work-steps div{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    float: left;
+    font-size: 140%;
+
+}
+  
+
+}
+/* small phones to small tablets */
+@media only screen and (max-width:767px){
+    body{
+        font-size: 13px;
+    }
+    .steps-box:last-child{
+        font-size: 15px;
+      }
+    
+    
+}
+
+
+
+
+/* small phones */
+@media only screen and (max-width:500px){
+    .main-nav{
+        
+        list-style:none;
+        margin-top: 15px;
+        margin-left:40px;
+        
+          
+    }
+    .main-nav li{
+        padding-right: 15px;
+    }
+    .steps-box:last-child{
+        padding-left: 1%;
+        text-align: left;
+        font-size: 10px;
+      }
+      .work-steps div{
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        float: left;
+        font-size: 140%;
+    
+    }
+    
+    cite{
+        font-size: 70%;
+        margin-top: 15px;
+        display: block;
+    }
+    
+    cite img{
+        height: 50px;
+        border-radius: 10%;
+        margin-right: 5px;
+        vertical-align: middle;
+       
+    
+    
+}
